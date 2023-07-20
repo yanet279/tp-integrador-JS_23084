@@ -10,37 +10,9 @@
 </head>
 <body>
     <!-- menu -->
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">
-                <span class="fs-5 px-4">Conf BsAs</span>
-            
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNav">
-                <ul class="navbar-nav ">
-                    <li class="nav-item" style="align-items: flex-end;">
-                        <a class="nav-link" aria-current="page" href="index.html">La Conferencia</a>
-                    </li>
-                    <li class="nav-item" style="align-items: flex-end;">
-                        <a class="nav-link" href="#oradores">Los oradores</a>
-                    </li>
-                    <li class="nav-item" style="align-items: flex-end;">
-                        <a class="nav-link" href="#">Lugar y Fecha</a>
-                    </li>
-                    <li class="nav-item" style="align-items: flex-end;">
-                        <a href="#orador" class="nav-link active">Conviértete en un orador</a>
-                    </li>
-                    <li class="nav-item" style="align-items: flex-end;">
-                        <a href="tickets.html" class="nav-link nav-link-comprar fw-medium">Comprar Tickets</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php 
+        require_once("view/menu.php")
+    ?> 
 
     <!-- Categoría-descuento -->
     <div class="d-flex justify-content-center mt-4">

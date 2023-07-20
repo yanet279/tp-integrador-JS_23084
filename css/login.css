@@ -1,0 +1,43 @@
+body{
+    background-color: #1d455c;
+}
+
+form{
+    width: 70%;
+}
+
+.login {
+    box-shadow: -7px 17px 38px 2px rgba(0,0,0,0.64);
+    border: lightgray solid 2px;
+    background: rgb(29,69,92);
+    background: linear-gradient(133deg, rgba(29,69,92,1) 8%, rgba(58,131,173,1) 70%, rgba(103,168,206,1) 100%);
+}
+
+@media (min-width: 768px){
+    .container {
+        max-width: 600px;
+    }
+}
+
+.btn {
+    border-radius: 20px;
+    border-color: #1b4055;
+    background-color: #1d455c;
+}
+.btn:hover {
+    background-color: #96c93e;
+}
+
+#volver {
+    font-size: 14px;
+}
+
+#volver > i {
+    font-size: 20px;
+}
+
+/* @media (min-width:992px ) {
+    .container{
+        width: 720px;
+    }
+} */
